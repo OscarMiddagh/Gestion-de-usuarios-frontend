@@ -19,7 +19,7 @@ function App() {
     <Router>
         <div className="container mt-5">
         <div className="btn-group">
-          <Link to="InicioSesion" className="btn btn-dark">
+          <Link to="/InicioSesion" className="btn btn-dark">
             Inicio de Sesion
           </Link>
           
@@ -32,10 +32,10 @@ function App() {
           <Route path="/:usuarioId/SolicitudCambioRol"> 
             <SolicitudCambioRol />
           </Route>
-          <Route path="InicioSesion" exact>
+          <Route path="/InicioSesion" exact>
             <InicioSesion />
           </Route>
-          <Route path="TableroSolicitudes">
+          <Route path="/TableroSolicitudes">
             <TableroSolicitudes />
           </Route>
           <Route path="/Registro">
