@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Gestion-de-usuarios-frontend/static/css/main.a666865e.chunk.css",
+    "main.js": "/Gestion-de-usuarios-frontend/static/js/main.c0976c7c.chunk.js",
+    "main.js.map": "/Gestion-de-usuarios-frontend/static/js/main.c0976c7c.chunk.js.map",
+    "runtime-main.js": "/Gestion-de-usuarios-frontend/static/js/runtime-main.58eb461c.js",
+    "runtime-main.js.map": "/Gestion-de-usuarios-frontend/static/js/runtime-main.58eb461c.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/Gestion-de-usuarios-frontend/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.e7045143.chunk.js": "/Gestion-de-usuarios-frontend/static/js/2.e7045143.chunk.js",
+    "static/js/2.e7045143.chunk.js.map": "/Gestion-de-usuarios-frontend/static/js/2.e7045143.chunk.js.map",
+    "static/js/3.7805fdc2.chunk.js": "/Gestion-de-usuarios-frontend/static/js/3.7805fdc2.chunk.js",
+    "static/js/3.7805fdc2.chunk.js.map": "/Gestion-de-usuarios-frontend/static/js/3.7805fdc2.chunk.js.map",
+    "index.html": "/Gestion-de-usuarios-frontend/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/Gestion-de-usuarios-frontend/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.a666865e.chunk.css.map": "/Gestion-de-usuarios-frontend/static/css/main.a666865e.chunk.css.map",
+    "static/js/2.e7045143.chunk.js.LICENSE.txt": "/Gestion-de-usuarios-frontend/static/js/2.e7045143.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58eb461c.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.e7045143.chunk.js",
+    "static/css/main.a666865e.chunk.css",
+    "static/js/main.c0976c7c.chunk.js"
+  ]
+}
