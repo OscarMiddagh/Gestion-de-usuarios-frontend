@@ -3,7 +3,6 @@ import React from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Inicio-Sesion/InicioSesionMock.css";
-import TableroSolicitudes from '../Tablero-Solicitudes/Tablero-Solicitudes';
 import {
   Table,
   Button,
@@ -87,7 +86,7 @@ class LogIn extends React.Component {
         let comprobante = response.data.rol.nombreRol;
         if (comprobante === "admin") {
           alert("Bienvenido de vuelta admin ");
-          window.location.pathname ="../Tablero-Solicitudes/Tablero-Solicitudes";
+          window.location.pathname ="TableroSolicitudes";
         }
         else {
           alert("Bienvenido de vuelta usuario");
