@@ -87,7 +87,7 @@ class LogIn extends React.Component {
         let comprobante = response.data.rol.nombreRol;
         if (comprobante === "admin") {
           alert("Bienvenido de vuelta admin ");
-          window.location.pathname ="/"+{TableroSolicitudes};
+          window.location.pathname ="/"+TableroSolicitudes;
         }
         else {
           alert("Bienvenido de vuelta usuario");
