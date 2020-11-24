@@ -19,23 +19,23 @@ function App() {
     <Router>
         <div className="container mt-5">
         <div className="btn-group">
-          <Link to="InicioSesion" className="btn btn-dark">
+          <Link to="/InicioSesion" className="btn btn-dark">
             Inicio de Sesion
           </Link>
           
           <hr />
         </div>
         <Switch>
-        <Route path="RespuestaSolicitud">
+        <Route path="/RespuestaSolicitud">
             <RespuestaSolicitud />
           </Route>
-          <Route path=":usuarioId/SolicitudCambioRol"> 
+          <Route path="/:usuarioId/SolicitudCambioRol"> 
             <SolicitudCambioRol />
           </Route>
-          <Route path="InicioSesion" exact>
+          <Route path="/InicioSesion" exact>
             <InicioSesion />
           </Route>
-          <Route path="TableroSolicitudes">
+          <Route path="/TableroSolicitudes">
             <TableroSolicitudes />
           </Route>
           <Route path="/Registro">
